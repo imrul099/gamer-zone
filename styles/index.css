@@ -112,6 +112,103 @@ nav li a{
     padding: 1.2rem 1.9rem;
 }
 
+/* card-section */
+.card-section{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.card-img img{
+    height: 90%;
+    margin-left: 90px;
+}
+.card-title{
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.card-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.card-bottom-img{
+    border-radius: 8px;
+position: relative;
+
+
+}
+
+/* footer section */
+.footer{
+    background-color: #a37b74;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.footer-container img{
+    width: 40px;
+    height: 30px;
+    margin-right: 0;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    align-items: center;
+    margin-left: 10px;
+    color: #FFF;
+}
+.footer-container span{
+    color: #FF42A5;
+}
+.footer .services{
+    display: flex;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 30px;   
+}
+
+.footer .services a{
+    text-decoration  : none;
+    margin-right: 60px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;   
+}
+.footer .footer-terms{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer .footer-terms a{
+    text-decoration  : none;
+    margin-right: 60px;
+    color: #ffffff99;  
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-description{
+    color: #ffffff99;
+    font-size: 16px;
+    font-weight: 500;   
+}
+.fa-brands{
+    font-size: 50px;
+    margin-right: 20px;
+    align-items: center;
+}
+
 /* responsive styles */
 /* small device */
 @media screen and (max-width: 576px) {
