@@ -280,7 +280,7 @@ nav li a{
 /* responsive styles */
 /* small device */
 @media screen and (max-width: 576px) {
-    nav, nav > ul, .banner, .features-img{
+    nav, nav > ul, .banner, .features-img, .card-section{
         flex-direction: column;
     }
     nav > ul{
