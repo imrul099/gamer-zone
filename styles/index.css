@@ -52,7 +52,8 @@ nav li a{
     border-radius: 8px;
     background: #0b02231a;
     padding: 20px;
-    gap: 10px;   
+    gap: 10px;
+    align-items: center;   
 }
 
 .heading-container span{
@@ -115,30 +116,33 @@ nav li a{
 /* card-section */
 .card-section{
     display: flex;
-    margin-top: 50px;
-    
-}
-.card-img img{
-    height: 90%;
-    margin-left: 90px;
+    margin: 150px 200px;
+    gap: 200px;
 }
 .card-title{
     text-align: right;
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: 700;
+    color: #8758F1; 
+}
+.card-title span{
+    color: #F948B2;
 }
 .card-description{
     color: #534C64;
     text-align: right;
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;  
 }
-
-.card-bottom-img{
-    border-radius: 8px;
-position: relative;
-
-
+.card-img{
+    width: 634.833px;
+    height: 650px;
+    position: relative;
+}
+.small-img{
+    margin-top: -300px;
+    margin-left: -150px;
+    position: absolute;
 }
 
 /* footer section */
