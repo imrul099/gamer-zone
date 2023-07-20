@@ -299,6 +299,20 @@ nav li a{
     .features-heading{
         align-items: center;
     }
+    .feature-game{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 50px ;
+        gap: 5px;
+    }
+    .game-title{
+        font-size: 12px;
+    font-weight: 600;
+    gap: 10px;
+    }
+    .btn-pic{
+        width: 30px;
+    }
 }
 
 
@@ -317,4 +331,19 @@ nav li a{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .feature-game{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 50px ;
+        
+    }
+    .game-title{
+        font-size: 12px;
+        font-weight: 600;
+        gap: 10px;
+    }
+    .btn-pic{
+        width: 40px;
+    }
+
 }
